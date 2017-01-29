@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A82893AA1E3E587200E05311 /* SimpleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82893A91E3E587200E05311 /* SimpleModel.swift */; };
 		F7199DFE1E38E713004988F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7199DFD1E38E713004988F0 /* AppDelegate.swift */; };
 		F7199E001E38E713004988F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7199DFF1E38E713004988F0 /* ViewController.swift */; };
 		F7199E031E38E714004988F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7199E011E38E714004988F0 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A82893A91E3E587200E05311 /* SimpleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleModel.swift; sourceTree = "<group>"; };
 		F7199DFA1E38E713004988F0 /* Budget Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Budget Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7199DFD1E38E713004988F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7199DFF1E38E713004988F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		F7199E101E38E73D004988F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A82893A91E3E587200E05311 /* SimpleModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82893AA1E3E587200E05311 /* SimpleModel.swift in Sources */,
 				F7199E001E38E713004988F0 /* ViewController.swift in Sources */,
 				F7199DFE1E38E713004988F0 /* AppDelegate.swift in Sources */,
 			);
@@ -334,6 +338,7 @@
 				F7199E0E1E38E714004988F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
