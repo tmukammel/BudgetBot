@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		F7199DFE1E38E713004988F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7199DFD1E38E713004988F0 /* AppDelegate.swift */; };
-		F7199E001E38E713004988F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7199DFF1E38E713004988F0 /* ViewController.swift */; };
-		F7199E031E38E714004988F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7199E011E38E714004988F0 /* Main.storyboard */; };
 		F7199E051E38E714004988F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7199E041E38E714004988F0 /* Assets.xcassets */; };
 		F7199E081E38E714004988F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7199E061E38E714004988F0 /* LaunchScreen.storyboard */; };
+		F78A4A8B1E3F85230059A96D /* RootBudgetPlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78A4A891E3F85230059A96D /* RootBudgetPlannerViewController.swift */; };
+		F78A4A8C1E3F85230059A96D /* RootBudgetPlannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78A4A8A1E3F85230059A96D /* RootBudgetPlannerViewController.xib */; };
+		F7D1D1D01E3F7D0A0062B5A1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D1D1CE1E3F7D0A0062B5A1 /* LoginViewController.swift */; };
+		F7D1D1D11E3F7D0A0062B5A1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D1D1CF1E3F7D0A0062B5A1 /* LoginViewController.xib */; };
+		F7FE932D1E40CE720043D65C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE932C1E40CE720043D65C /* UIColor+Extension.swift */; };
+		F7FE932F1E40D3500043D65C /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE932E1E40D3500043D65C /* UIButton+Extension.swift */; };
+		F7FE93321E40D4F30043D65C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE93311E40D4F30043D65C /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7199DFA1E38E713004988F0 /* Budget Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Budget Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7199DFD1E38E713004988F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7199DFF1E38E713004988F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7199E021E38E714004988F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7199E041E38E714004988F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7199E071E38E714004988F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7199E091E38E714004988F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78A4A891E3F85230059A96D /* RootBudgetPlannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootBudgetPlannerViewController.swift; sourceTree = "<group>"; };
+		F78A4A8A1E3F85230059A96D /* RootBudgetPlannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootBudgetPlannerViewController.xib; sourceTree = "<group>"; };
+		F7D1D1CE1E3F7D0A0062B5A1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F7D1D1CF1E3F7D0A0062B5A1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F7FE932C1E40CE720043D65C /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		F7FE932E1E40D3500043D65C /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		F7FE93311E40D4F30043D65C /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 		F7199DFC1E38E713004988F0 /* Budget Bot */ = {
 			isa = PBXGroup;
 			children = (
+				F7FE93301E40D4CB0043D65C /* GenericSubclasses */,
+				F7FE932B1E40CE650043D65C /* Extensions */,
 				F7199E101E38E73D004988F0 /* Model */,
 				F7199E111E38E743004988F0 /* View */,
 				F7199E121E38E74A004988F0 /* Controller */,
@@ -83,7 +95,8 @@
 		F7199E111E38E743004988F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F7199E011E38E714004988F0 /* Main.storyboard */,
+				F7D1D1CF1E3F7D0A0062B5A1 /* LoginViewController.xib */,
+				F78A4A8A1E3F85230059A96D /* RootBudgetPlannerViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -91,9 +104,27 @@
 		F7199E121E38E74A004988F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F7199DFF1E38E713004988F0 /* ViewController.swift */,
+				F7D1D1CE1E3F7D0A0062B5A1 /* LoginViewController.swift */,
+				F78A4A891E3F85230059A96D /* RootBudgetPlannerViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		F7FE932B1E40CE650043D65C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7FE932C1E40CE720043D65C /* UIColor+Extension.swift */,
+				F7FE932E1E40D3500043D65C /* UIButton+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F7FE93301E40D4CB0043D65C /* GenericSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				F7FE93311E40D4F30043D65C /* Button.swift */,
+			);
+			name = GenericSubclasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +189,8 @@
 			files = (
 				F7199E081E38E714004988F0 /* LaunchScreen.storyboard in Resources */,
 				F7199E051E38E714004988F0 /* Assets.xcassets in Resources */,
-				F7199E031E38E714004988F0 /* Main.storyboard in Resources */,
+				F78A4A8C1E3F85230059A96D /* RootBudgetPlannerViewController.xib in Resources */,
+				F7D1D1D11E3F7D0A0062B5A1 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,22 +201,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7199E001E38E713004988F0 /* ViewController.swift in Sources */,
+				F78A4A8B1E3F85230059A96D /* RootBudgetPlannerViewController.swift in Sources */,
+				F7FE93321E40D4F30043D65C /* Button.swift in Sources */,
+				F7D1D1D01E3F7D0A0062B5A1 /* LoginViewController.swift in Sources */,
 				F7199DFE1E38E713004988F0 /* AppDelegate.swift in Sources */,
+				F7FE932F1E40D3500043D65C /* UIButton+Extension.swift in Sources */,
+				F7FE932D1E40CE720043D65C /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7199E011E38E714004988F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7199E021E38E714004988F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7199E061E38E714004988F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,6 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y7393DYRG2;
 				INFOPLIST_FILE = "Budget Bot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.virtualreality.Budget-Bot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,6 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y7393DYRG2;
 				INFOPLIST_FILE = "Budget Bot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.virtualreality.Budget-Bot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -334,6 +364,7 @@
 				F7199E0E1E38E714004988F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
